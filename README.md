@@ -37,16 +37,21 @@ timeout /t 3 /nobreak >nul
 
 ---
 
-### 🗂️ Supported formats
+### ⚙️ Requirements
 
+To run this program, the **.NET 9 runtime** must be installed on your system.  
+You can download it here:  
+👉 [Download .NET 9 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/9.0/runtime)
+
+🗂️ Supported formats
 Supports various disk image formats.
 
-- **If WinCDEmu is installed**, it will be used to mount all image formats, including `.iso`, `.cue/.bin`, and others.  
-  *(If you rename a `.cue` and `.bin` to match your game, be sure to update the content inside the `.cue` accordingly.)*
+If WinCDEmu is installed, it will be used to mount all image formats, including .iso, .cue/.bin, and others.
+(If you rename a .cue and .bin to match your game, be sure to update the content inside the .cue accordingly.)
 
-- **Otherwise**, only `.iso` files will be mounted using Windows' native system.
+Otherwise, only .iso files will be mounted using Windows' native system.
 
-✅ **WinCDEmu** is recommended:  
+✅ WinCDEmu is recommended:
 It is generally faster, and CD mounting errors should occur less frequently in games.
 
 🔗 https://wincdemu.sysprogs.org/
